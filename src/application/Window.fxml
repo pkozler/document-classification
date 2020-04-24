@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WindowController">
+   <children>
+      <VBox layoutX="216.0" layoutY="77.0" prefHeight="289.0" prefWidth="147.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <HBox VBox.vgrow="NEVER">
+               <children>
+                  <Label focusTraversable="false" text="Klasifikační model:" />
+                  <TextField fx:id="classificationModelTextField" editable="false" focusTraversable="false" HBox.hgrow="SOMETIMES">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </HBox>
+            <TitledPane animated="false" collapsible="false" text="Rozpoznávaný text:" VBox.vgrow="ALWAYS">
+               <content>
+                  <TextArea fx:id="testDocumentTextArea" />
+               </content>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </TitledPane>
+            <HBox VBox.vgrow="NEVER">
+               <children>
+                  <Label focusTraversable="false" text="Třída dokumentu:" />
+                  <TextField fx:id="documentClassTextField" editable="false" focusTraversable="false" HBox.hgrow="SOMETIMES">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </HBox>
+            <FlowPane alignment="CENTER_RIGHT" VBox.vgrow="NEVER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleClassifyButtonAction" text="Klasifikovat" />
+               </children>
+            </FlowPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
