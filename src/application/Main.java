@@ -78,8 +78,8 @@ public class Main extends Application {
         System.out.printf("Popis parametrů:\n");
         System.out.printf("    <trénovací množina> ........... cesta k adresáři s dokumenty pro natrénování klasifikačního modelu\n");
         System.out.printf("    <testovací množina> ........... cesta k adresáři s dokumenty pro otestování klasifikačního modelu\n");
-        System.out.printf("    <parametrizační algoritmus> ... identifikační číslo parametrizačního algoritmu (1 - 3)\n");
-        System.out.printf("    <klasifikační algoritmus> ..... identifikační číslo klasifikačního algoritmu (1 - 3)\n");
+        System.out.printf("    <parametrizační algoritmus> ... identifikátor parametrizačního algoritmu (možnosti: -o, -p, -s)\n");
+        System.out.printf("    <klasifikační algoritmus> ..... identifikátor klasifikačního algoritmu (možnosti: -b, -n, -r)\n");
         System.out.printf("    <název modelu> ................ název souboru (bez přípony) klasifikačního modelu - povinné\n");
         System.out.printf("\n");
         

@@ -33,8 +33,8 @@ public abstract class AClassifier implements Serializable {
      * @param vocabulary seznam všech nalezených slov
      */
     public void setLists(List<String> classes, List<String> vocabulary) {
-        this.classes = new ArrayList(classes);
-        this.vocabulary = new ArrayList(vocabulary);
+        this.classes = new ArrayList<String>(classes);
+        this.vocabulary = new ArrayList<String>(vocabulary);
     }
     
     /**
