@@ -1,6 +1,6 @@
 # Klasifikace textů
 
-Java aplikace pro klasifikaci textových dokumentů. Vytvořeno jako semestrální práce z předmětu Programování v prostředí .NET na FAV ZČU.
+Java aplikace pro klasifikaci textových dokumentů. Vytvořeno jako semestrální práce z předmětu *Umělá inteligence a rozpoznávání* na FAV ZČU.
 
 **Popis adresářové struktury**
 
